@@ -10,6 +10,8 @@ packages = [{include = "bot_movie"}]
 python = "^3.10"
 pre-commit = "^3.0.0"
 cinemagoer = "^2022.12.27"
+aiogram = "^2.24"
+python-dotenv = "^0.21.1"
 
 
 [build-system]
