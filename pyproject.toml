@@ -9,6 +9,7 @@ packages = [{include = "bot_movie"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pre-commit = "^3.0.0"
+cinemagoer = "^2022.12.27"
 
 
 [build-system]
