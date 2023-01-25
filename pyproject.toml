@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bot-movie"
+version = "0.1.0"
+description = ""
+authors = ["Dzmitry <isys35@mail.ru>"]
+readme = "README.md"
+packages = [{include = "bot_movie"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pre-commit = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
