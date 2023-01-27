@@ -10,10 +10,11 @@ ia = Cinemagoer()
 
 def get_random_movie():
     movies = ia.get_top250_movies()
-    return movies[random.randint(1, 250)]
+    movie = movies[random.randint(1, 250)]
+    return ia.get_movie(movie.movieID)
 
 
 if __name__ == "__main__":
     movie = get_random_movie()
     movie_detail = ia.get_movie(movie.movieID)
-    print(get_random_movie())
+    print(dict(movie_detail))
