@@ -14,6 +14,10 @@ def get_random_movie():
     return ia.get_movie(movie.movieID)
 
 
+def get_film(movie_id):
+    return ia.get_movie(movie_id)
+
+
 if __name__ == "__main__":
     movie = get_random_movie()
     movie_detail = ia.get_movie(movie.movieID)
